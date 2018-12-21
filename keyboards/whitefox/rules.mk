@@ -22,6 +22,7 @@ MCU_SERIES = K20x
 #   - MK20DX128BLDR4 for Infinity with Kiibohd bootloader
 #   - MK20DX256BLDR8 for Infinity ErgoDox with Kiibohd bootloader
 MCU_LDSCRIPT = MK20DX256BLDR8
+BOOTLOADER = atmel-dfu
 
 # Startup code to use
 #  - it should exist in <chibios>/os/common/ports/ARMCMx/compilers/GCC/mk/
