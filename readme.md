@@ -1,3 +1,18 @@
+## Custom info 
+#### Whitefox
+```
+make whitefox:ema
+make whitefox:ema:dfu
+dfu-util -D whitefox_ema.bin -S "85C100007DEB00230029001032194E45 - mk20dx256vlh7"
+```
+
+#### Tada68
+```
+make clean
+./keyboards/tada68/keymaps/ema/deploy.sh
+```
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
@@ -8,14 +23,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/qmk/qmk_firmware.svg?style=social&label=Fork)](https://github.com/qmk/qmk_firmware/)
 
 This is a keyboard firmware based on the [tmk\_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](http://www.ergodox-ez.com) keyboard, and the [Clueboard product line](http://clueboard.co/).
-
-### Custom info 
-Flash with
-```
-make whitefox:ema
-make whitefox:ema:dfu
-dfu-util -D whitefox_ema.bin -S "85C100007DEB00230029001032194E45 - mk20dx256vlh7"
-```
 
 ## Documentation
 

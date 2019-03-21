@@ -6,4 +6,4 @@ docker run \
        -v $('pwd'):/qmk:rw \
        -w /qmk \
        edasque/qmk_firmware \
-       make tada68:ema:bin
+       make clean && make tada68:ema:bin
