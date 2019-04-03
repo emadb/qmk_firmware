@@ -10,6 +10,8 @@ dfu-util -D whitefox_ema.bin -S "85C100007DEB00230029001032194E45 - mk20dx256vlh
 ```
 make clean
 ./keyboards/tada68/keymaps/ema/deploy.sh
+cd /Volumes/TADA68\ \
+cp ~/dev/qmk_firmware/tada68_ema.bin ./FLASH.BIN
 ```
 
 
